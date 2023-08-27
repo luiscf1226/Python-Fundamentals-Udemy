@@ -1,0 +1,5 @@
+name=raw_input("Cual es tu Nombre: ")
+venta=raw_input("Cuantas Ventas: ")
+suma=float(venta)
+res=round(suma*0.13,2)
+print("Ok Juan. este mes ganaste ${}".format(res))
